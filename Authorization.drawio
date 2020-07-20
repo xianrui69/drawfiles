@@ -1,1 +1,802 @@
-<mxfile host="app.diagrams.net" modified="2020-07-17T09:12:20.917Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="BxIoOwAKOYR25G0XaSi7" version="13.4.5" type="github"><diagram id="wqEXqw9HZFoFsEtQY5jP" name="Page-1">7VfbcpswEP0azzQPznBxSPJoYzuXTjKZutP0rSODALUCESFiO1/fFZJsC3CmyTgPnZYHWzqry+rs2RUM/DBfX3FUZncsxnTgOfF64E8HHjyjS/iTyEYh7mXgKyTlJNbYDliQF6xBR6M1iXFlDRSMUUFKG4xYUeBIWBjinK3sYQmj9q4lSnEHWESIdtFHEotMoRfe+Q6/xiTNzM5uoE+cIzNYn6TKUMxWe5A/G/ghZ0yoVr4OMZXsGV7UvPkB69YxjgvxJxPGF2TiDe+9dXXrOuvH+V0Q50O9yjOitT5wwlGOtcdiY2gA50vZrHM6bwb4k1VGBF6UKJL4CsIPWCZyCj0Xml33zF6YC7zeg7S7V5jlWPANDNHWoXemudPqGbqGzNUuFu7I0WC2HwjfzEVaAel2/R1J0NA8vYEzr8PZHYk4q1giTsdVeY9FyDg+HdciY5y8IEFYcZBQKUjMga+EFWKh7ZK/CpglRfqVlRJwABFoaSQ40v2t9NyRAh5YRZr9/CnFibBDUgnOfuGQUcYbJ3ynecCSchQTCJSxFazAR4qhe96OoduNIbjSDeExAph8D4ZPL4LNNt+mP25nn4sqcHpEP/ACKskqrSAFT7VMzkmOeEqA0jFYnXINvw03jsKHQoZI2kZ7NqBHDBElqZ4XAYUQ5+2a0Er1f7Mz2QNQLnOJdns3co1EZpyB7SnWikANae+y5B3EADeWXheYP5NmH7PWsj0TsLKNZVwSaIq4Oat7+NjvIlwpe8t4d2051hwHj6tNEX0KKSJ59cBJEZESgURAOg5b/pR3RtO+mRV1jtGS4hbnFi9f8FNNOM5lQlisnyiHWoOrmoo+7t/jIGQv1IO37dMXqVYhkqlM4L4bK61OGzVPtHJNEWEwKqHN7ZUQmWyqXKlAu57uz1FOqEzza0yfsVy170ro1I6eCvNKObm0y4nfLSZnFz3F5OKjikn3NvhfTFpJc42KmDb+/q3FRJ1AJWrf0UJQP8To5J/IwTPXTsFRz30e9KTg+UeloN9NwdAbjCdkq3DoTl7RLbxrFb3aaSdeE4qD+jsgf/vOeC0FlB8HRHLcILpB+7XM6Qmje5zXMujuvnMa297noj/7DQ==</diagram></mxfile>
+<mxfile host="5ef955ac-adbe-4949-b9e3-ff9e259c276c" modified="2020-07-20T09:07:30.428Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.47.2 Chrome/78.0.3904.130 Electron/7.3.2 Safari/537.36" etag="qcVjLXYdS3BLD-6tbt7H" version="13.1.3">
+    <diagram id="wqEXqw9HZFoFsEtQY5jP" name="Page-1">
+        <mxGraphModel dx="6581" dy="3270" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="A8iB2-N2xsJ10xWFM6dm-1" value="frame" style="shape=umlFrame;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-2360" y="-1400" width="4610" height="2940" as="geometry"/>
+                </mxCell>
+                <mxCell id="A8iB2-N2xsJ10xWFM6dm-2" value="Microsoft.AspNetCore.Authorization" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;strokeColor=#000000;gradientColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="-2298" y="-1390" width="230" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="fX6-qztoEyVD_JEKns60-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IAuthorizationService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ AuthorizeAsync(ClaimsPrincipal, object, IEnumeable&amp;lt;IAuthorizationRequirement&amp;gt;): AuthorizationResult&lt;br&gt;+ AuthorizeAsync(ClaimsPrincipal, object, string): AuthorizationResult&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-640" y="95" width="580" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="fX6-qztoEyVD_JEKns60-2" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IAuthorizationHandler&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ HandleAsync(AuthorizationHandlerContext)&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1220" y="940" width="260" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="fX6-qztoEyVD_JEKns60-3" value="«interface»&lt;br&gt;&lt;span style=&quot;text-align: left&quot;&gt;&lt;b&gt;IAuthorizationRequirement&lt;/b&gt;&lt;/span&gt;" style="html=1;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="110" width="210" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;" edge="1" parent="1" source="fX6-qztoEyVD_JEKns60-2" target="3">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="970" y="320" as="sourcePoint"/>
+                        <mxPoint x="1130" y="320" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;" edge="1" parent="1" source="18" target="fX6-qztoEyVD_JEKns60-2">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="960" y="790" as="sourcePoint"/>
+                        <mxPoint x="1120" y="790" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;" edge="1" parent="1" source="24" target="fX6-qztoEyVD_JEKns60-2">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="713.4730538922154" y="879" as="sourcePoint"/>
+                        <mxPoint x="782.754491017964" y="790" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="34" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;" edge="1" parent="1" source="fX6-qztoEyVD_JEKns60-1" target="fX6-qztoEyVD_JEKns60-3">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="-20" y="230" as="sourcePoint"/>
+                        <mxPoint x="140" y="230" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="42" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1" source="fX6-qztoEyVD_JEKns60-1" target="35">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="90" y="360" as="sourcePoint"/>
+                        <mxPoint x="10" y="360" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="53" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;" edge="1" parent="1" source="43" target="fX6-qztoEyVD_JEKns60-1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="-490" y="340" as="sourcePoint"/>
+                        <mxPoint x="-330" y="340" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="55" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IAuthorizationEvaluator&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ Evaluate(AuthorizationHandlerContext): AuthorizationResult&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-760" y="-801" width="340" height="72" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;" edge="1" parent="1" source="55" target="3">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="190" y="240" as="sourcePoint"/>
+                        <mxPoint x="350" y="240" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="57" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1" source="55" target="35">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="210" y="290" as="sourcePoint"/>
+                        <mxPoint x="130" y="290" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="58" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;" edge="1" parent="1" source="43" target="55">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="20" y="330" as="sourcePoint"/>
+                        <mxPoint x="180" y="330" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="59" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IAuthorizationHandlerContextFactory&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ CreateContext(IEnumerable&amp;lt;IAuthorizationRequirement&amp;gt;, ClaimsPrincipal, object): AuthorizationHandlerContext&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-150" y="-850" width="630" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1" source="59" target="3">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="290" y="-130" as="sourcePoint"/>
+                        <mxPoint x="210" y="-130" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="61" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;" edge="1" parent="1" source="59" target="fX6-qztoEyVD_JEKns60-3">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="-20" y="-110" as="sourcePoint"/>
+                        <mxPoint x="140" y="-110" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="62" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;" edge="1" parent="1" source="43" target="59">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="-90" y="230" as="sourcePoint"/>
+                        <mxPoint x="70" y="230" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="83" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;" edge="1" parent="1" source="70" target="78">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="-1180" y="1320" as="sourcePoint"/>
+                        <mxPoint x="-1020" y="1320" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="113" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;" edge="1" parent="1" source="96" target="fX6-qztoEyVD_JEKns60-3">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="10" y="330" as="sourcePoint"/>
+                        <mxPoint x="170" y="330" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="117" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IAuthorizationHandlerProvider&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ GetHandlerAsync(AuthorizationHandlerContext): IEnumerable&amp;lt;AuthorizationHandler&amp;gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="820" y="210" width="483" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="118" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IAuthorizationPolicyProvider&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ GetPolicyAsync(string): IEnumerable&amp;lt;AuthorizationPolicy&amp;gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ GetDefaultPolicyAsync(): AuthorizationPolicy&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ GetFallbackPolicyAsync(): AuthorizationPolicy&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-2170" y="372" width="483" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="128" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;" edge="1" parent="1" source="121" target="118">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="-1330" y="770" as="sourcePoint"/>
+                        <mxPoint x="-1170" y="770" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="133" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;" edge="1" parent="1" source="129" target="117">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="330" y="600" as="sourcePoint"/>
+                        <mxPoint x="490" y="600" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="134" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;" edge="1" parent="1" source="52" target="117">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="-690" y="480" as="sourcePoint"/>
+                        <mxPoint x="-530" y="480" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="135" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;" edge="1" parent="1" source="52" target="118">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="-460" y="470" as="sourcePoint"/>
+                        <mxPoint x="-300" y="470" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="137" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;" edge="1" parent="1" source="117" target="fX6-qztoEyVD_JEKns60-2">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="390" y="840" as="sourcePoint"/>
+                        <mxPoint x="550" y="840" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="138" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;" edge="1" parent="1" source="117" target="3">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="681.5" y="84" as="sourcePoint"/>
+                        <mxPoint x="681.5" y="84" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="142" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;" edge="1" parent="1" source="92" target="fX6-qztoEyVD_JEKns60-3">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="410" y="590" as="sourcePoint"/>
+                        <mxPoint x="570" y="590" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="151" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;" edge="1" parent="1" source="96" target="18">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="-100" y="1050" as="sourcePoint"/>
+                        <mxPoint x="60" y="1050" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="152" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;" edge="1" parent="1" source="108" target="18">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="160" y="990" as="sourcePoint"/>
+                        <mxPoint x="320" y="990" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="153" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;" edge="1" parent="1" source="92" target="18">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="510" y="980" as="sourcePoint"/>
+                        <mxPoint x="670" y="980" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="155" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;" edge="1" parent="1" source="108" target="fX6-qztoEyVD_JEKns60-3">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="90" y="570" as="sourcePoint"/>
+                        <mxPoint x="250" y="570" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="157" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;" edge="1" parent="1" source="104" target="fX6-qztoEyVD_JEKns60-3">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="-570" y="520" as="sourcePoint"/>
+                        <mxPoint x="-410" y="520" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="100" value="OperationAuthorizationRequirement" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="110" width="270" height="86" as="geometry"/>
+                </mxCell>
+                <mxCell id="101" value="+ Name: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="100">
+                    <mxGeometry y="26" width="270" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="100">
+                    <mxGeometry y="52" width="270" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" value="+ ToString(): string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="100">
+                    <mxGeometry y="60" width="270" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" value="ClaimsAuthorizationRequirement" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="-400" y="711" width="510" height="164" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" value="+ ClaimType: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="108">
+                    <mxGeometry y="26" width="510" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="145" value="+ AllowedValues: IEnumerable&lt;string&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="108">
+                    <mxGeometry y="52" width="510" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="110" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="108">
+                    <mxGeometry y="78" width="510" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="111" value="+ ClaimsAuthorizationRequirement(string, IEnumerable&lt;string&gt;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="108">
+                    <mxGeometry y="86" width="510" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="146" value="# HandleRequirementAsync(AuthorizationHandlerContext, ClaimsAuthorizationRequirement)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="108">
+                    <mxGeometry y="112" width="510" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="149" value="+ ToString(): string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="108">
+                    <mxGeometry y="138" width="510" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="RolesAuthorizationRequirement" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="135" y="718" width="510" height="138" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" value="+ AllowedRoles: IEnumerable&lt;string&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="92">
+                    <mxGeometry y="26" width="510" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="92">
+                    <mxGeometry y="52" width="510" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="144" value="+ RolesAuthorizationRequirement(IEnumerable&lt;string&gt;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="92">
+                    <mxGeometry y="60" width="510" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="140" value="# HandleRequirementAsync(AuthorizationHandlerContext, RolesAuthorizationRequirement)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="92">
+                    <mxGeometry y="86" width="510" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="+ ToString(): string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="92">
+                    <mxGeometry y="112" width="510" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="160" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;" edge="1" parent="1" source="104" target="18">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="620" y="980" as="sourcePoint"/>
+                        <mxPoint x="780" y="980" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="161" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;" edge="1" parent="1" source="100" target="fX6-qztoEyVD_JEKns60-3">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="500" y="280" as="sourcePoint"/>
+                        <mxPoint x="660" y="280" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="162" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;" edge="1" parent="1" source="3" target="fX6-qztoEyVD_JEKns60-3">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="780" y="-110" as="sourcePoint"/>
+                        <mxPoint x="940" y="-110" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="129" value="DefaultAuthorizationHandlerProvider" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="1590" y="202" width="430" height="86" as="geometry"/>
+                </mxCell>
+                <mxCell id="130" value="- _handlers: IEnumerable&lt;IAuthorizationHandler&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="129">
+                    <mxGeometry y="26" width="430" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="131" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="129">
+                    <mxGeometry y="52" width="430" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="132" value="+ DefaultAuthorizationHandlerProvider(IEnumerable&lt;IAuthorizationHandler&gt;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="129">
+                    <mxGeometry y="60" width="430" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="167" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;" edge="1" parent="1" source="163" target="55">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="-541.5" y="-782" as="sourcePoint"/>
+                        <mxPoint x="-381.5" y="-782" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="169" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;" edge="1" parent="1" source="118" target="70">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="-1280" y="640" as="sourcePoint"/>
+                        <mxPoint x="-1120" y="640" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="190" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;" edge="1" parent="1" source="183" target="100">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="1520" y="530" as="sourcePoint"/>
+                        <mxPoint x="1680" y="530" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="191" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;" edge="1" parent="1" source="183" target="fX6-qztoEyVD_JEKns60-2">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="1730" y="1030" as="sourcePoint"/>
+                        <mxPoint x="1890" y="1030" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="35" value="AuthorizationResult" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="-490" y="-290" width="280" height="164" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="+ Succeed: bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="35">
+                    <mxGeometry y="26" width="280" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="+ Failure: AuthorizationFailure" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="35">
+                    <mxGeometry y="52" width="280" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="35">
+                    <mxGeometry y="78" width="280" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="+ Success(): AuthorizationResult" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="35">
+                    <mxGeometry y="86" width="280" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="+ Failed(AuthorizationFailure): AuthorizationResult" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="35">
+                    <mxGeometry y="112" width="280" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="+ Failed(): AuthorizationResult" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="35">
+                    <mxGeometry y="138" width="280" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="AuthorizationHandler&lt;TRequirement, TResource&gt;&#10;where TRequirement: IAuthorizationRequirement" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=41;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="1110" y="1150" width="480" height="67" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="# HandleRequirementAsync(AuthorizationHandlerContext, TRequriement, TResource)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="24">
+                    <mxGeometry y="41" width="480" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="183" value="AssertionRequirement" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="1540" y="893" width="410" height="164" as="geometry"/>
+                </mxCell>
+                <mxCell id="184" value="+ Handler: Func&lt;AuthorizationHandlerContext, Task&lt;bool&gt;&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="183">
+                    <mxGeometry y="26" width="410" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="185" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="183">
+                    <mxGeometry y="52" width="410" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="186" value="+ AssertionRequirement(Func&lt;AuthorizationHandlerContext, bool&gt;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="183">
+                    <mxGeometry y="60" width="410" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="188" value="+ AssertionRequirement(Func&lt;AuthorizationHandlerContext, Task&lt;bool&gt;&gt;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="183">
+                    <mxGeometry y="86" width="410" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="189" value="+ HandleAsync(AuthorizationHandlerContext)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="183">
+                    <mxGeometry y="112" width="410" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="187" value="+ ToString(): string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="183">
+                    <mxGeometry y="138" width="410" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="AuthorizationPolicy" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="-1770" y="724" width="540" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="+ Requirements: IEnumerable&lt;IAuthorizationRequirement&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="70">
+                    <mxGeometry y="26" width="540" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="+ AuthenticationSchemes: IReadOnlyList&lt;string&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="70">
+                    <mxGeometry y="52" width="540" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="70">
+                    <mxGeometry y="78" width="540" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="+ AuthorizationPolicy(IEnumerable&lt;IAuthorizationRequirement&gt;, IReadOnlyList&lt;string&gt;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="70">
+                    <mxGeometry y="86" width="540" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="+ Combine(AuthorizationPolicy[]): AuthorizationPolicy" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="70">
+                    <mxGeometry y="112" width="540" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="+ Combine(IEnumerable&lt;AuthorizationPolicy&gt;): AuthorizationPolicy" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="70">
+                    <mxGeometry y="138" width="540" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="+ CombineAsync(AuthorizationPolicyProvider, IEnumerable&lt;IAuthorizeData&gt;): AuthorizationPolicy" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="70">
+                    <mxGeometry y="164" width="540" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="AuthorizationPolicyBuilder" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="-1561.5" y="990" width="540" height="476" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="+ Requirements: IList&lt;IAuthorizationRequirement&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="78">
+                    <mxGeometry y="26" width="540" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="+ AuthenticationSchemes: IList&lt;string&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="78">
+                    <mxGeometry y="52" width="540" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="78">
+                    <mxGeometry y="78" width="540" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="+ AuthorizationPolicyBuilder(string[])" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="78">
+                    <mxGeometry y="86" width="540" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="+ AuthorizationPolicyBuilder(AuthorizationPolicy)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="78">
+                    <mxGeometry y="112" width="540" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="+ AddAuthorizationSchemes(string[]): AuthorizationPolicyBuilder" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="78">
+                    <mxGeometry y="138" width="540" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="+ AddRequirements(IAuthorizationRequirement[]): AuthorizationPolicyBuilder" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="78">
+                    <mxGeometry y="164" width="540" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="+ Combine(AuthorizationPolicy): AuthorizationPolicyBuilder" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="78">
+                    <mxGeometry y="190" width="540" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="+ RequireClaim(string, string[]): AuthorizationPolicyBuilder" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="78">
+                    <mxGeometry y="216" width="540" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="+ RequireClaim(string, IEnumerable&lt;string&gt;): AuthorizationPolicyBuilder" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="78">
+                    <mxGeometry y="242" width="540" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="178" value="+ RequireClaim(string): AuthorizationPolicyBuilder" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="78">
+                    <mxGeometry y="268" width="540" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="+ RequireRole(string[]): AuthorizationPolicyBuilder" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="78">
+                    <mxGeometry y="294" width="540" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="177" value="+ RequireRole(IEnumerable&lt;string&gt;): AuthorizationPolicyBuilder" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="78">
+                    <mxGeometry y="320" width="540" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="179" value="+ RequireUserName(string): AuthorizationPolicyBuilder" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="78">
+                    <mxGeometry y="346" width="540" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="198" value="+ RequireAuthenticationUser(): AuthorizationPolicyBuilder" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="78">
+                    <mxGeometry y="372" width="540" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="180" value="+ RequireAssertion(Func&lt;AuthorizationHandlerContext, bool&gt;): AuthorizationPolicyBuilder" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="78">
+                    <mxGeometry y="398" width="540" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="181" value="+ RequireAssertion(Func&lt;AuthorizationHandlerContext, Task&lt;bool&gt;&gt;): AuthorizationPolicyBuilder" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="78">
+                    <mxGeometry y="424" width="540" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="182" value="+ Build(): AuthorizationPolicy" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="78">
+                    <mxGeometry y="450" width="540" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="194" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;" edge="1" parent="1" source="170" target="70">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="-1190" y="690" as="sourcePoint"/>
+                        <mxPoint x="-1030" y="690" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="195" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;" edge="1" parent="1" source="170" target="78">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="-1200" y="760" as="sourcePoint"/>
+                        <mxPoint x="-1040" y="760" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="196" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;" edge="1" parent="1" source="121" target="170">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="-1250" y="540" as="sourcePoint"/>
+                        <mxPoint x="-1090" y="540" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="197" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;" edge="1" parent="1" source="43" target="170">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="-570" y="280" as="sourcePoint"/>
+                        <mxPoint x="-410" y="280" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="170" value="AuthorizationOptions" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="-870" y="360" width="310" height="216" as="geometry"/>
+                </mxCell>
+                <mxCell id="171" value="+ PolicyMap: Dictionary&lt;string, AuthorizationPolicy&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="170">
+                    <mxGeometry y="26" width="310" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="174" value="+ InvokeHandlerAfterFailure: bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="170">
+                    <mxGeometry y="52" width="310" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="175" value="+ DefaultPolicy: AuthorizationPolicy" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="170">
+                    <mxGeometry y="78" width="310" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="176" value="+ FallbackPolicy: AuthorizationPolicy" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="170">
+                    <mxGeometry y="104" width="310" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="172" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="170">
+                    <mxGeometry y="130" width="310" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="173" value="+ AddPolicy(string, AuthorizationPolicy)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="170">
+                    <mxGeometry y="138" width="310" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="192" value="+ AddPolicy(string, Action&lt;AuthorizationPolicyBuilder&gt;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="170">
+                    <mxGeometry y="164" width="310" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="193" value="+ GetPolicy(string)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="170">
+                    <mxGeometry y="190" width="310" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" value="NameAuthorizationRequirement" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="-920" y="820" width="500" height="138" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" value="+ RequiredName: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="96">
+                    <mxGeometry y="26" width="500" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="96">
+                    <mxGeometry y="52" width="500" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="99" value="+ NameAuthorizationRequirement(string)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="96">
+                    <mxGeometry y="60" width="500" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="112" value="# HandleRequirementAsync(AuthorizationHandlerContext, NameAuthorizationRequirement)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="96">
+                    <mxGeometry y="86" width="500" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="116" value="+ ToString(): string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="96">
+                    <mxGeometry y="112" width="500" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" value="DenyAnonymousAuthorizationRequirement" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="660" y="836" width="560" height="78" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" value="# HandleRequirementAsync(AuthorizationHandlerContext, DenyAnonymousAuthorizationRequirement)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="104">
+                    <mxGeometry y="26" width="560" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="158" value="+ ToString(): string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="104">
+                    <mxGeometry y="52" width="560" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="AuthorizationHandler&lt;TRequirement&gt;&#10;where TRequirement: IAuthorizationRequirement" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=41;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="1300" width="410" height="67" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="# HandleRequirementAsync(AuthorizationHandlerContext, TRequriement)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="18">
+                    <mxGeometry y="41" width="410" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="163" value="DefaultAuthorizationEvaluator" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="-1090" y="-1034" width="350" height="52" as="geometry"/>
+                </mxCell>
+                <mxCell id="166" value="+ Evaluate(AuthorizationHandlerContext): AuthorizationResult" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="163">
+                    <mxGeometry y="26" width="350" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="AuthorizationFailure" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="-470" y="-1060" width="400" height="164" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="+ FailCalled: bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="63">
+                    <mxGeometry y="26" width="400" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="+ FailedRequirements: IEnumerable&lt;IAuthorizationRequirement&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="63">
+                    <mxGeometry y="52" width="400" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="63">
+                    <mxGeometry y="78" width="400" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="+ AuthorizationFailure()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="63">
+                    <mxGeometry y="86" width="400" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="+ ExplicitFail(): AuthorizationFailure" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="63">
+                    <mxGeometry y="112" width="400" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="+ Failed(IEnumerable&lt;IAuthorizationRequirement&gt;): AuthorizationFailure" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="63">
+                    <mxGeometry y="138" width="400" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="199" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;" edge="1" parent="1" source="35" target="63">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="-370" y="-390" as="sourcePoint"/>
+                        <mxPoint x="-210" y="-390" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="211" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IAuthorizeData&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&amp;nbsp;+ Policy: string&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ Roles: string&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ AuthenticationSchemes: string&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-1880" y="-339" width="190" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="212" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;" edge="1" parent="1" source="200" target="211">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="-2520" y="101" as="sourcePoint"/>
+                        <mxPoint x="-2360" y="101" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="214" value="«interface»&lt;br&gt;&lt;b&gt;IAllowAnonymous&lt;/b&gt;" style="html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-1300" y="-890" width="160" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="215" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;" edge="1" parent="1" source="206" target="214">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="-1710" y="-110" as="sourcePoint"/>
+                        <mxPoint x="-1550" y="-110" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="AuthorizationHandlerContext" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="1200" y="-584" width="540" height="346" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="- _pendingRequirements: HashSet&lt;IAuthorizationRequirement&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3">
+                    <mxGeometry y="26" width="540" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="- _failCalled: bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3">
+                    <mxGeometry y="52" width="540" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="- _succeedCalled: bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3">
+                    <mxGeometry y="78" width="540" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="+ Requirements: IEnumerable&lt;IAuthorizationRequirement&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3">
+                    <mxGeometry y="104" width="540" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="+ User: ClaimsPrincipal" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3">
+                    <mxGeometry y="130" width="540" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="+ Resource: object" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3">
+                    <mxGeometry y="156" width="540" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="+ PendingRequirements: IEnumerable&lt;IAuthorizationRequirement&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3">
+                    <mxGeometry y="182" width="540" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="+ HasFailed: bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3">
+                    <mxGeometry y="208" width="540" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="+ HasSucceed: bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3">
+                    <mxGeometry y="234" width="540" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="3">
+                    <mxGeometry y="260" width="540" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="+ AuthorizationHandlerContext(IEnumerable&lt;IAuthorizationRequirement&gt;, ClaimsPrincipal, object)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3">
+                    <mxGeometry y="268" width="540" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="+ Fail()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3">
+                    <mxGeometry y="294" width="540" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="+ Succeed(IAuthorizationRequirement)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3">
+                    <mxGeometry y="320" width="540" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="220" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;" edge="1" parent="1" source="216" target="fX6-qztoEyVD_JEKns60-2">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="1720" y="780" as="sourcePoint"/>
+                        <mxPoint x="1880" y="780" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="216" value="PassThroughAuthorizationHandler" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="1540" y="711" width="260" height="52" as="geometry"/>
+                </mxCell>
+                <mxCell id="219" value="+ HandleAsync(AuthorizationHandlerContext)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="216">
+                    <mxGeometry y="26" width="260" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="230" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;" edge="1" parent="1" source="221" target="211">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="-2260" y="-100" as="sourcePoint"/>
+                        <mxPoint x="-2100" y="-100" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="231" value="frame" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-4220" y="-1400" width="1760" height="2470" as="geometry"/>
+                </mxCell>
+                <mxCell id="232" value="Microsoft.AspNetCore.Authorization.Policy" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;strokeColor=#000000;gradientColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="-4200" y="-1360" width="270" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="DefaultAuthorizationService" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="-1280" y="-12" width="340" height="300" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="- _options: AuthorizationOptions" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="43">
+                    <mxGeometry y="26" width="340" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="- _contextFactory: IAuthorizationHandlerContextFactory" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="43">
+                    <mxGeometry y="52" width="340" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="- _handlers: IAuthorizationHandlerProvider" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="43">
+                    <mxGeometry y="78" width="340" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="- _evaluator: IAuthorizationEvaluator" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="43">
+                    <mxGeometry y="104" width="340" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="- _policyProvider: IAuthorizationPolicyProvider" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="43">
+                    <mxGeometry y="130" width="340" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="- _logger: ILogger" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="43">
+                    <mxGeometry y="156" width="340" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="43">
+                    <mxGeometry y="182" width="340" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="+ DefaultAuthorizationService(&#10;IAuthorizationPolicyProvider, &#10;IAuthorizationHandlerProvider, &#10;ILogger&lt;DefaultAuthorizationService&gt;, &#10;IAuthorizationHandlerContextFactory, &#10;IAuthorizationEvaluator, &#10;IOptions&lt;AuthorizationOptions&gt;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="43">
+                    <mxGeometry y="190" width="340" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="121" value="DefaultAuthorizationPolicyProvider" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="-1361.5" y="350" width="340" height="126" as="geometry"/>
+                </mxCell>
+                <mxCell id="122" value="- _options: AuthorizationOptions" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="121">
+                    <mxGeometry y="26" width="340" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="126" value="- _cachedDefaultPolicay: AuthorizationPolicy" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="121">
+                    <mxGeometry y="48" width="340" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="125" value="- _cachedFallbackPolicay: AuthorizationPolicy" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="121">
+                    <mxGeometry y="70" width="340" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="123" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="121">
+                    <mxGeometry y="92" width="340" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="124" value="+ DefaultAuthorizationPolicy(IOptions&lt;AuthorizationOptions&gt;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="121">
+                    <mxGeometry y="100" width="340" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="254" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IPolicyEvaluator&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ AuthenticateAsync(AuthorizationPolicy, HttpContext): AuthenticateResult&lt;br&gt;+ AuthorizeAsync(AuthorizationPolicy, AuthenticateResult, HttpContext, object): PolicyAuthorizationResult&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="-3095" y="-92" width="580" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="255" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IAuthorizationMiddlewareResultHandler&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ HandleAsync(RequestDelegate, HttpContext, AuthorizationPolicy, PolicyAuthorizationResult): Task&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="-3680" y="-200" width="550" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="261" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;" edge="1" parent="1" source="256" target="254">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="-2730" y="-20" as="sourcePoint"/>
+                        <mxPoint x="-2570" y="-20" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="206" value="AllowAnonymousAttribute" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="-1320" y="-700" width="200" height="34" as="geometry"/>
+                </mxCell>
+                <mxCell id="262" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;" edge="1" parent="1" source="256" target="263">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="-2830" y="-340" as="sourcePoint"/>
+                        <mxPoint x="-2670" y="-340" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="263" value="Microsoft.AspNetCore.Authorization.IAuthorizationService" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;strokeColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="-2982" y="-390" width="354" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="265" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;" edge="1" parent="1" source="221" target="118">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="-2110" y="130" as="sourcePoint"/>
+                        <mxPoint x="-1950" y="130" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="266" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;" edge="1" parent="1" source="221" target="254">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="-3180" y="20" as="sourcePoint"/>
+                        <mxPoint x="-3020" y="20" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="256" value="PolicyEvaluator" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="-2920" y="-262" width="230" height="86" as="geometry"/>
+                </mxCell>
+                <mxCell id="257" value="- _authorization: IAuthorizationService" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="256">
+                    <mxGeometry y="26" width="230" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="258" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="256">
+                    <mxGeometry y="52" width="230" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="259" value="+ PolicyEvaluator(IAuthorizationService)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="256">
+                    <mxGeometry y="60" width="230" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="221" value="AuthorizationMiddleware" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="-3010" y="64" width="410" height="216" as="geometry"/>
+                </mxCell>
+                <mxCell id="222" value="- SuppressUseHttpContextAsAuthorizationResource: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="221">
+                    <mxGeometry y="26" width="410" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="225" value="- AuthorizationMiddlewareInvokedWithEndpointKey: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="221">
+                    <mxGeometry y="52" width="410" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="226" value="- AuthorizationMiddlewareWithEndpointInvokedValue: object" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="221">
+                    <mxGeometry y="78" width="410" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="228" value="- _next: RequestDelegate" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="221">
+                    <mxGeometry y="104" width="410" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="229" value="- _policyProvider: IAuthorizationPolicyProvider" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="221">
+                    <mxGeometry y="130" width="410" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="223" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="221">
+                    <mxGeometry y="156" width="410" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="227" value="+ AuthorizationMiddleware(RequestDelegate, IAuthorizationPolicyProvider)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="221">
+                    <mxGeometry y="164" width="410" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="224" value="+ Invoke(HttpContext): Task" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="221">
+                    <mxGeometry y="190" width="410" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="267" value="AuthorizationMiddlewareResultHandler" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="-3680" y="-390" width="550" height="52" as="geometry"/>
+                </mxCell>
+                <mxCell id="270" value="+ HandleAsync(RequestDelegate, HttpContext, AuthorizationPolicy, PolicyAuthorizationResult): Task" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="267">
+                    <mxGeometry y="26" width="550" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="272" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;" edge="1" parent="1" source="267" target="255">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="-3830" y="-280" as="sourcePoint"/>
+                        <mxPoint x="-3670" y="-280" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="273" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;" edge="1" parent="1" source="221" target="255">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="-3310" y="150" as="sourcePoint"/>
+                        <mxPoint x="-3150" y="150" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="243" value="PolicyServiceCollectionExtension" style="swimlane;fontStyle=5;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="-3630" y="372" width="510" height="104" as="geometry"/>
+                </mxCell>
+                <mxCell id="246" value="+ AddAuthorizationPolicyEvaluator(this IServiceCollection): IServiceCollection" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="243">
+                    <mxGeometry y="26" width="510" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="250" value="+ AddAuthorization(this IServiceCollection): IServiceCollection" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="243">
+                    <mxGeometry y="52" width="510" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="251" value="+ AddAuthorization(this IServiceCollection, Action&lt;AuthorizationOptions&gt;): IServiceCollection" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="243">
+                    <mxGeometry y="78" width="510" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="200" value="AuthorizeAttribute" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="-1880" y="-600" width="190" height="138" as="geometry"/>
+                </mxCell>
+                <mxCell id="201" value="+ Policy: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="200">
+                    <mxGeometry y="26" width="190" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="204" value="+ Roles: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="200">
+                    <mxGeometry y="52" width="190" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="205" value="+ AuthenticationSchemes: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="200">
+                    <mxGeometry y="78" width="190" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="202" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="200">
+                    <mxGeometry y="104" width="190" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="203" value="+ AuthorizeAttribute(string)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="200">
+                    <mxGeometry y="112" width="190" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="274" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;" edge="1" parent="1" source="70" target="211">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="-1580" y="20" as="sourcePoint"/>
+                        <mxPoint x="-1420" y="20" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
